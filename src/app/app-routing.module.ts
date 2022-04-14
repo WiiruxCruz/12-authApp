@@ -21,7 +21,8 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
-	  useHash: true
+	//useHash: true //si se realiza esto no se requiere configuración en el backeng
+	useHash: false
   })],
   exports: [RouterModule]
 })
